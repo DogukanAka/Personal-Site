@@ -117,8 +117,12 @@ p {
     margin: 100px auto 100px auto;
     text-align: left;
     
-    
-    
+}
+
+.job-history, .experience {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
 }
 
 .beceri {
@@ -172,10 +176,26 @@ p {
     text-decoration: none;
   }
 
-  .copyright {
+.copyright {
 
     color: #EAF6F6;
     font-size: 0.75rem;
     padding: 20px 0;
   }
+
+.navbar {
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+.navbar a {
+    margin: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #40514E;
+}
 
